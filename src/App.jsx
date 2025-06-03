@@ -9,6 +9,10 @@ import MoodUploads from './Pages/MoodUploads'
 import Analytics from './Pages/Analytics'
 import Cart from './Pages/Cart'
 import Profile from './Pages/Profile'
+import Vendor from './Pages/Vendor'
+import VendorHome from './Component/Dashboard/VendorHome'
+import VendorUpload from './Pages/VendorUpload'
+import VendorProfile from './Pages/VendorProfile'
 
 
 
@@ -30,7 +34,9 @@ function App() {
         <Route path="/analytics" element={<Analytics />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/profile" element={<Profile />} />
-
+        <Route path="/vendor" element={<Vendor />} />
+        <Route path="/vendor-uploads" element={<VendorUpload />} />
+        <Route path="/vendor-profile" element={<VendorProfile />} />
         
       </Routes>
     </BrowserRouter>

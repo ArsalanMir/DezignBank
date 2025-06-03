@@ -11,9 +11,9 @@ export default function Header() {
         </Link>
         <div className="flex space-x-8 text-base text-gray-700 font-medium">
           <Link to="/" className="hover:text-black">Design</Link>
-          {/* <Link to="#" className="hover:text-black">Mood Boards</Link>
-          <Link to="#" className="hover:text-black">Explore</Link> */}
-          <Link to="/dashboard" className="hover:text-black">Dasboard</Link>
+          {/* {/* <Link to="#" className="hover:text-black">Mood Boards</Link> */}
+          <Link to="/vendor" className="hover:text-black">Vendor</Link>
+          <Link to="/dashboard" className="hover:text-black">Seller</Link>
         </div>
       </div>
 
